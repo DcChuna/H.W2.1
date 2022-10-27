@@ -21,3 +21,15 @@ class Cat(home_Animals):
         self.hignrun = False
         self.hignjump = True
         self.fly = False
+d = Dog()
+p = Parrot()
+c = Cat()
+print(('Dog hign run:'), d.hignrun)
+print(('Dog hign fly:'), d.fly)
+print(('Dog hign jump:'), d.hignjump)
+print(('Parrot hign run:'), p.hignrun)
+print(('Parrot fly:'), p.fly)
+print(('Parrot hign jump:'), p.hignjump)
+print(('Cat hign run:'), c.hignrun)
+print(('Cat fly:'), c.fly)
+print(('Cat hign jump:'), c.hignjump)
